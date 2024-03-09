@@ -1,0 +1,101 @@
+[20:46:58] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:47:00] [ServerMain/INFO]: Loaded 7 recipes
+[20:47:00] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:47:00] [Server thread/INFO]: Loading properties
+[20:47:00] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[20:47:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:47:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:47:02] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[20:47:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:47:02] [Server thread/INFO]: Default game type: SURVIVAL
+[20:47:02] [Server thread/INFO]: Generating keypair
+[20:47:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:47:02] [Server thread/INFO]: Using epoll channel type
+[20:47:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:47:02] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[20:47:02] [Server thread/INFO]: [UhcCore] Loading server plugin UhcCore v1.20.8
+[20:47:02] [Server thread/INFO]: [StaffPlusPlus] Loading server plugin StaffPlusPlus v1.20.4
+[20:47:02] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.47.4
+[20:47:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:47:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:47:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:47:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:47:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:47:02] [Server thread/INFO]: Preparing level "world"
+[20:47:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:47:03] [Server thread/INFO]: Time elapsed: 362 ms
+[20:47:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:47:03] [Server thread/INFO]: Time elapsed: 113 ms
+[20:47:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:47:03] [Server thread/INFO]: Time elapsed: 67 ms
+[20:47:03] [Server thread/INFO]: [UhcCore] Enabling UhcCore v1.20.8
+[20:47:03] [Server thread/WARN]: [UhcCore] The message scenarios.global.inventory is too long, max length is 32 characters
+[20:47:04] [Server thread/WARN]: [UhcCore] WorldEdit plugin not found, there will be no support of schematics.
+[20:47:04] [Server thread/WARN]: [UhcCore] Vault plugin not found, there will be no support of economy rewards.
+[20:47:04] [Server thread/WARN]: [UhcCore] ProtocolLib plugin not found
+[20:47:04] [Server thread/INFO]: [UhcCore] Start loading kits
+[20:47:04] [Server thread/INFO]: [UhcCore] Loading kit tools
+[20:47:04] [Server thread/INFO]: [UhcCore] Added kit tools
+[20:47:04] [Server thread/INFO]: [UhcCore] Loading kit ench
+[20:47:04] [Server thread/INFO]: [UhcCore] Added kit ench
+[20:47:04] [Server thread/INFO]: [UhcCore] Loading kit shield
+[20:47:04] [Server thread/INFO]: [UhcCore] Added kit shield
+[20:47:04] [Server thread/INFO]: [UhcCore] Loading kit MIPE
+[20:47:04] [Server thread/INFO]: [UhcCore] Added kit MIPE
+[20:47:04] [Server thread/INFO]: [UhcCore] Loading kit RUSH
+[20:47:04] [Server thread/INFO]: [UhcCore] Added kit RUSH
+[20:47:04] [Server thread/INFO]: [UhcCore] Loaded 5 kits
+[20:47:04] [Server thread/INFO]: [UhcCore] Loading banned crafts list
+[20:47:04] [Server thread/INFO]: [UhcCore] Loading custom crafts
+[20:47:04] [Server thread/INFO]: [UhcCore] Loading custom craft Manzana ligera
+[20:47:04] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[20:47:09] [Server thread/INFO]: [UhcCore] Manzana ligera custom craft registered
+[20:47:09] [Server thread/INFO]: [UhcCore] Loading custom craft Yunque ligero
+[20:47:09] [Server thread/INFO]: [UhcCore] Yunque ligero custom craft registered
+[20:47:09] [Server thread/INFO]: [UhcCore] Loading custom craft Vara_de_blaze
+[20:47:09] [Server thread/INFO]: [UhcCore] Vara_de_blaze custom craft registered
+[20:47:09] [Server thread/INFO]: [UhcCore] Loading custom craft VERRUGA_DEL_NETHER
+[20:47:09] [Server thread/INFO]: [UhcCore] VERRUGA_DEL_NETHER custom craft registered
+[20:47:09] [Server thread/INFO]: [UhcCore] Loading custom craft POLVORA
+[20:47:09] [Server thread/INFO]: [UhcCore] POLVORA custom craft registered
+[20:47:09] [Server thread/INFO]: [UhcCore] Loading custom craft Cabeza_dorada
+[20:47:09] [Server thread/INFO]: [UhcCore] Cabeza_dorada custom craft registered
+[20:47:09] [Server thread/INFO]: [UhcCore] Loading custom craft EL Desfibrilador :v
+[20:47:09] [Server thread/INFO]: [UhcCore] EL Desfibrilador :v custom craft registered
+[20:47:09] [Server thread/INFO]: [UhcCore] Loading custom craft NOTCH
+[20:47:09] [Server thread/INFO]: [UhcCore] NOTCH custom craft registered
+[20:47:09] [Server thread/INFO]: [UhcCore] Loading custom craft for golden heads
+[20:47:09] [Server thread/INFO]: [StaffPlusPlus] Enabling StaffPlusPlus v1.20.4
+[20:47:13] [Server thread/INFO]: [StaffPlusPlus] Using SQLITE storage
+[20:47:13] [Server thread/INFO]: [StaffPlusPlus] Permissions handled by Bukkit
+[20:47:13] [Server thread/INFO]: [StaffPlusPlus] No styles directory present
+[20:47:13] [Server thread/INFO]: [StaffPlusPlus] Luckperms not found. Not Setting luckperms hook
+[20:47:13] [Server thread/INFO]: [StaffPlusPlus] Staff++ has been enabled!
+[20:47:13] [Server thread/INFO]: [StaffPlusPlus] Plugin created by Shortninja continued by Qball - Revisited by Garagepoort
+[20:47:13] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.47.4
+[20:47:14] [Server thread/INFO]: [ConditionalEvents] Has been enabled! Version: 4.47.4
+[20:47:14] [Server thread/INFO]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
+[20:47:14] [Server thread/INFO]: There is a new version available. (4.48.1)
+[20:47:14] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/conditionalevents
+[20:47:14] [Server thread/INFO]: Running delayed init tasks
+[20:47:14] [Server thread/INFO]: [UhcCore] Loading existing world : 5a754fa6-19cd-4908-98de-b2d73ce442e4
+[20:47:14] [Server thread/INFO]: Preparing start region for dimension minecraft:5a754fa6-19cd-4908-98de-b2d73ce442e4
+[20:47:15] [Server thread/INFO]: Time elapsed: 971 ms
+[20:47:15] [Server thread/INFO]: [UhcCore] World seed: 4789197993064583295
+[20:47:15] [Server thread/INFO]: [UhcCore] Loading existing world : 6d11d168-17d7-4512-b41c-7be8c3accba4
+[20:47:15] [Server thread/INFO]: Preparing start region for dimension minecraft:6d11d168-17d7-4512-b41c-7be8c3accba4
+[20:47:15] [Server thread/INFO]: Time elapsed: 28 ms
+[20:47:15] [Server thread/INFO]: [UhcCore] World seed: 5961251343993797824
+[20:47:15] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[20:47:16] [Server thread/INFO]: [UhcCore] No WorldEdit/schematic installed so ending with deathmatch at 0 0
+[20:47:16] [Server thread/INFO]: [UhcCore] Players are now allowed to join
+[20:47:16] [Server thread/INFO]: Done (15.629s)! For help, type "help"
+[20:47:16] [Server thread/INFO]: Timings Reset
+[20:47:22] [User Authenticator #0/INFO]: UUID of player Giniwis is ef565ec9-2f3f-391a-ba7b-ed9b108453d6
+[20:47:22] [Server thread/INFO]: [Staff] Giniwis joined the server
+[20:47:23] [Server thread/INFO]: Giniwis[/[0:0:0:0:0:0:0:1%0]:58178] logged in with entity id 559 at ([world]55.5, 63.0, 344.5)
+[20:47:23] [Server thread/INFO]: Giniwis has made the advancement [Isn't It Iron Pick]
+[20:47:41] [Server thread/INFO]: Giniwis lost connection: Disconnected
+[20:47:41] [Server thread/INFO]: Giniwis left the game

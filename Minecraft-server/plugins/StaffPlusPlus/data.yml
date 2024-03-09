@@ -1,0 +1,35 @@
+ef565ec9-2f3f-391a-ba7b-ed9b108453d6:
+  name: Giniwis
+  glass-color: WHITE_STAINED_GLASS_PANE
+  alert-options: []
+  vanish-type: NONE
+  staff-mode: false
+  night-vision: VANISH,false;STAFF_MODE,false
+c2985416-763c-34a9-811f-f3be9d0e368d:
+  name: MEG4MEX
+  glass-color: WHITE_STAINED_GLASS_PANE
+  alert-options: []
+  vanish-type: NONE
+  staff-mode: false
+  night-vision: VANISH,false;STAFF_MODE,false
+b9fa0dfd-1d75-3531-88a1-b2180f3950ba:
+  name: MEG4MEX14
+  glass-color: WHITE_STAINED_GLASS_PANE
+  alert-options: []
+  vanish-type: NONE
+  staff-mode: false
+  night-vision: ''
+4458c2fc-4234-346f-9380-c86895cde92a:
+  name: ItzYinMC
+  glass-color: WHITE_STAINED_GLASS_PANE
+  alert-options: []
+  vanish-type: NONE
+  staff-mode: false
+  night-vision: ''
+2b214088-2f35-3500-b99d-9ee5e6fa65a0:
+  name: ELESO
+  glass-color: WHITE_STAINED_GLASS_PANE
+  alert-options: []
+  vanish-type: NONE
+  staff-mode: false
+  night-vision: VANISH,false;STAFF_MODE,false

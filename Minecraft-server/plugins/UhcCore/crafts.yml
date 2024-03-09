@@ -1,0 +1,88 @@
+# Configure custom crafts, to get rid of all custom crafts delete the 'custom-crafts' section.
+custom-crafts:
+  Manzana ligera:
+    '1': '{"type":"AIR"} {"type":"GOLD_INGOT"} {"type":"AIR"}'
+    '2': '{"type":"GOLD_INGOT"} {"type":"APPLE"} {"type":"GOLD_INGOT"}'
+    '3': '{"type":"AIR"} {"type":"GOLD_INGOT"} {"type":"AIR"}'
+    craft: '{"type":"GOLDEN_APPLE"}'
+    default-name: true
+    limit: -1
+  
+  
+  
+  
+  
+  
+  Yunque ligero:
+    '1': '{"type":"IRON_INGOT"} {"type":"IRON_INGOT"} {"type":"IRON_INGOT"}'
+    '2': '{"type":"AIR"} {"type":"IRON_BLOCK"} {"type":"AIR"}'
+    '3': '{"type":"IRON_INGOT"} {"type":"IRON_INGOT"} {"type":"IRON_INGOT"}'
+    craft: '{"type":"ANVIL"}'
+    default-name: false
+    limit: 2
+  
+  
+  
+  
+  
+  
+  
+  
+  Vara_de_blaze:
+    '1': '{"type":"GOLD_INGOT"} {"type":"GOLD_BLOCK"} {"type":"GOLD_INGOT"}'
+    '2': '{"type":"AIR"} {"type":"REDSTONE_BLOCK"} {"type":"AIR"}'
+    '3': '{"type":"AIR"} {"type":"IRON_BLOCK"} {"type":"AIR"}'
+    craft: '{"type":"BLAZE_ROD"}'
+    default-name: false
+    limit: -1
+  
+  
+  
+
+  VERRUGA_DEL_NETHER:
+    '1': '{"type":"IRON_INGOT"} {"type":"IRON_INGOT"} {"type":"IRON_INGOT"}'
+    '2': '{"type":"AIR"} {"type":"BLAZE_ROD"} {"type":"AIR"}'
+    '3': '{"type":"AIR"} {"type":"AIR"} {"type":"AIR"}'
+    craft: '{"type":"NETHER_WART","display-name":"&aVERRUGA_DEL_NETHER"}'
+    default-name: false
+    limit: -1
+  POLVORA:
+    '1': '{"type":"SAND"} {"type":"SAND"} {"type":"SAND"}'
+    '2': '{"type":"SAND"} {"type":"SUGAR"} {"type":"SAND"}'
+    '3': '{"type":"AIR"} {"type":"AIR"} {"type":"AIR"}'
+    craft: '{"type":"GUNPOWDER","display-name":"&aPOLVORA"}'
+    default-name: false
+    limit: -1
+  Cabeza_dorada:
+    '1': '{"type":"GOLD_INGOT"} {"type":"GOLD_INGOT"} {"type":"GOLD_INGOT"}'
+    '2': '{"type":"GOLD_INGOT"} {"type":"PLAYER_HEAD"} {"type":"GOLD_INGOT"}'
+    '3': '{"type":"GOLD_INGOT"} {"type":"GOLD_INGOT"} {"type":"GOLD_INGOT"}'
+    craft: '{"type":"GOLDEN_APPLE","display-name":"&aCabeza_dorada","lore":["&eCómete
+      esto para curar 4 corazones y conseguir 2 corazones de absorción."]}'
+    default-name: true
+    limit: -1
+  
+  EL Desfibrilador :v:
+    '1': '{"type":"AIR"} {"type":"GOLD_BLOCK"} {"type":"AIR"}'
+    '2': '{"type":"GOLD_BLOCK"} {"type":"DIAMOND_BLOCK"} {"type":"GOLD_BLOCK"}'
+    '3': '{"type":"AIR"} {"type":"GOLD_BLOCK"} {"type":"AIR"}'
+    craft: '{"type":"NETHER_STAR","lore":["&7Craftea este item y revive aleatoriamente
+      a un compañero"]}'
+    default-name: false
+    revive-item: true
+    revive-with-inventory: true
+    limit: -1
+  NOTCH:
+    '1': '{"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"}'
+    '2': '{"type":"GOLD_BLOCK"} {"type":"APPLE"} {"type":"GOLD_BLOCK"}'
+    '3': '{"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"}'
+    craft: '{"type":"ENCHANTED_GOLDEN_APPLE","display-name":"&aNOTCH"}'
+    default-name: false
+    limit: -1
+
+  
+#A list of items that you don't want players to be able to craft
+# Please respect the json-item syntax! (You can use the /iteminfo command to generate this syntax.)
+# To remove all items change to "ban-items-crafts: []"
+ban-items-crafts:
+- '{"type":"GOLDEN_APPLE","durability":1}'

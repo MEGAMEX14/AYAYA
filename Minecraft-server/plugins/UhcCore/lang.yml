@@ -1,0 +1,423 @@
+game:
+  enough-teams-ready: Los equipos están listos.
+  starting: Iniciando el juego ahora!
+  starting-in: Iniciando en %time% segundos.
+  starting-cancelled: El inicio del juego fue cancelado porque no hay suficientes equipos listos
+  finished: El juego ha terminado!
+  end-stopped: Final de juego detenido!
+  shutdown: El servidor se apagará en %time% segundos.
+  please-wait-teleporting: Espere mientras todos los jugadores son teletransportados.
+  starting-deathmatch-in: Empezando el deatmatch en %time% segundos.
+  start-deathmatch: ¡Comenzando el deatmatch! Prepárate hasta que PvP esté habilitado!
+  border-start-shrinking: El borde comenzará a reducirse
+  final-heal: Todos los jugadores han llenado su barra de vida
+players:
+  nether-off: '&cEl nether ha sido desactivado para este juego.'
+  build-height: '&cAltura máxima de construcción alcanzada!'
+  welcome-new: Bienvenido al UHC, elige tu equipo y tu kit
+  welcome-back-in-game: Volviste a iniciar sesión en el juego
+  welcome-back-spectating: Haz muerto y ahora puedes spectear.
+  eliminated: '%player% ha sido eliminado!'
+  death-message: '%original%'
+  won-solo: '%player% HA GANADO LA PARTIDA!'
+  won-team: El equipo %team% HA GANADO LA PARTIDA!
+  all-have-left: Todos los jugadores se han salido, el juego terminará en
+  ff-off: '&7El fuego amigo esta desactivado'
+  pvp-off: '&7El PvP no está activado todavía'
+  send-bungee: '&eEnviandote al lobby en %time%'
+  send-bungee-now: '&eConectando con el lobby ...'
+  send-bungee-disabled: '&cEste comando está deshabilitado'
+display:
+  message-prefix: '&a[UhcCore]&r'
+  team-prefix: '[Equipo #%teamNumber%] '
+  episode-mark: Fin del episodio %episode%!
+  spectator-chat: '&7[Spec] &r%player%&r: %message%'
+  team-chat: '&a[Team] &r%player%&r: %message%'
+  motd-loading: Cargando ...
+  motd-waiting: Esperando ...
+  motd-starting: Iniciando
+  motd-playing: Jugando
+  motd-ended: Terminó
+kick:
+  loading: Cargando. Vuelva a intentarlo en unos minutos.
+  starting: Empezando... Demasiado tarde para unirse.
+  playing: Jugando... No puedes unirte.
+  ended: Finalizado... Vuelva a intentarlo en unos minutos.
+  dead: Estás muerto!
+command:
+  chat-global: '&aAhora estas hablando con todos'
+  chat-team: '&aAhora estás hablando con tu equipo.'
+  chat-help: '&7Type ''/chat'' or ''/c'' to toggle global chat'
+  chat-error: '&cYou can only use that command while playing'
+  spectating-help: Usa el comando '/teleport <nombre de un jugador>' para teletransportarte a un jugador
+  spectating-teleport: '&aTeletransportandose a %player%'
+  spectating-teleport-error: '&cNo puedes teletransportarte a ese jugador'
+  recipes-error: '&cNo hay recetas personalizadas para este juego..'
+  top-teleport: '&aHas sido teletransportado al bloque más alto..'
+  top-error-playing: '&cSólo puedes usar este comando mientras juegas..'
+  top-error-nether: '&cSolo puedes usar este comando en el overworld.'
+  spectate:
+    error: '&cSolo puedes cambiar al modo espectador mientras el juego aún no haya comenzado.'
+    playing: '&a¡Ahora estás jugando!'
+    spectating: '&a¡Ahora estás especteando!'
+team:
+  inventory:
+    main: '&2Menú de equipo'
+    teams-list: '&2Lista de equipos'
+    team-view: '&2Miembros del equipo'
+    settings: '&2Ajustes de equipo'
+    rename: '&2Renombrar equipo'
+    invites: '&2Invitaciones de equipo'
+    reply-invite: '&2Responder a la invitación'
+    invite-player: '&2Invitar a jugador'
+    color: '&2Selecciona un color de equipo'
+    members: '&2Miembros'
+    not-ready: '&c--- No listo ---'
+    ready: '&a--- Listo ---'
+  colors:
+    red: Rojo
+    blue: Azul
+    dark-green: Verde oscuro
+    dark-aqua: Aqua oscuro
+    dark-purple: Morado oscuro
+    yellow: Amarillo
+    gold: Dorado
+    green: Verde
+    aqua: Aqua
+    light-purple: Morado claro
+  item:
+    leave: '&cAbandonar equipo'
+    settings: '&aCambiar la configuración del equipo'
+    rename: '&aRenombrar equipo'
+    invite: '&aInvitar a un jugador'
+    invite-search: '&aBuscar un jugador para invitar'
+    invites: '&aMirar invitaciones'
+    invite-accept: '&aAceptar'
+    invite-deny: '&cRechazar'
+    ready-toggle: '&7Haz click para cambiar'
+    color: '&aSelecciona el color del equipo'
+    ready: '&aListo'
+    not-ready: '&cNo listo'
+  message:
+    player-name-empty: '&cEl nombre del jugador no puede estar vacío.'
+    player-not-online: '&c%player% no está en línea.'
+    now-ready: '&6Tú equipo está listo!'
+    now-not-ready: '&6Tú equipo aún no está listo!'
+    not-leader: '&cTú no eres el líder del equipo'
+    join-as-player: '&aTe uniste al equipo de %leader%'
+    player-joins: '&a%player% se ha unido al equipo'
+    leave-as-leader: '&aHas abandonado el equipo, %newleader% será el nuevo líder'
+    leave-as-player: '&aHas salido del equipo'
+    player-leaves: '&a%player% ha salido del equipo'
+    leader-leaves: '&aEl líder %leader% ha salido del equipo, %newleader% es el nuevo 
+    líder'
+    cant-leave: '&cNo puedes abandonar el equipo porque estás solo.'
+    deny-request: '&Petición denegada.'
+    spectators-cannot-join: '&cLos espectadores no pueden unirse a un equipo'
+    no-longer-exists: '&cEse equipo no existe.'
+    invite-already-sent: '&cYa haz enviado una invitación a %player%'
+    invite-success: '&a%player% ha sido invitado al equipo'
+    invite-receive: '&aHas sido invitado al equipo de %name%, puedes responder
+      a la invitación en el menú del equipo.'
+    invite-receive-hover: '&Haga click para ver'
+    already-in-team: '&c%player% ya está en el equipo'
+    player-already-in-team: '&c%player% ya está en un equipo'
+    full: '&c%player% no pudo unirse al equipo de %leader% porque esta lleno (%limit%
+      jugadores)'
+    color-already-selected: '&cYa has seleccionado este color.'
+    color-changed: '&aEl color de tu equipo se ha cambiado correctamente.'
+    name-changed: '&aEl nombre de tu equipo se ha cambiado correctamente.'
+    name-empty: '&cEse nombre de equipo está vacío!'
+    name-too-long: '&cese nombre de equipo es demasiado largo!'
+    name-illegal-characters: '&cel nombre del equipo contiene caracteres ilegales!'
+items:
+  team-list: '&9Haga clic derecho para ver los equipos'
+  sword: '&bHaga clic derecho para elegir su equipo'
+  bungee: '&cHaz clic derecho para volver'
+  regen-head: '&cHaz clic derecho para regenerar a tu equipo durante 5 segundos.'
+  regen-head-action: '&aObtienes un efecto de regeneración de 5 segundos por comerte
+    la cabeza de un jugador'
+  golden-head:
+    skull-name: '&6Cabeza de %player%'
+    skull-help: '&eCombina la cabeza oro para obtener una cabeza dorada.'
+    apple-name: '&6Cabeza dorada'
+    apple-help: '&eCómete esto para curar 4 corazones y conseguir 2 
+      corazones de absorción.'
+  compass-playing: '&aHaz clic con el botón derecho para señalar a un compañero'
+  compass-playing-error: '&cNo se ha encontrado a ningún compañero.'
+  compass-playing-cooldown: '&cPor favor espera, no pulsees muy rápido la brújula!'
+  compass-playing-pointing: '&aApuntando hacia la última ubicación de %player% (%distance% 
+    bloques)'
+  kit-selection: '&aHaga clic derecho para elegir un kit'
+  kit-inventory: '&2Selección de kits'
+  kit-selected: '&aHaz seleccionado el kit %kit%'
+  kit-no-permission: '&cNo tiene permisos para utilizar este kit'
+  kit-scoreboard-no-kit: Sin kit
+  craft-no-permission: '&cNo tienes permisos para craftear un %craft%'
+  craft-crafted: '&aHas crafteado un %craft%'
+  craft-left-click: '&cSolo puedes craftear una %craft% a la vez (Utiliza clic izquierdo).'
+  craft-limit: '&cHaz llegado al máximo de crafteos de %limit% %craft%.'
+  craft-book: '&dHaz click derecho para ver los crafteos personalizados'
+  craft-book-inventory: '&2Crafteos personalizados'
+  craft-book-back: '&7Volver a la lista de crafteos'
+  potion-banned: '&cLo siento, las pociones de nivel 2 están prohibidas.'
+  revive-success: '&a%player% ha sido revivido!'
+  revive-error: '&cNo se han encontrado miembros del equipo muertos!'
+pvp:
+  enabled: PVP activado!
+  start-in: PVP comenzará en
+event:
+  time-reward: '&eHas recibido %money% en su cuenta por jugar %time% , tiempo total jugado %totaltime%'
+  kill-reward: '&eHas recibido %money% en tu cuenta por matar a un jugador'
+  win-reward: '&eHas recibido %money% en tu cuenta por ganar la partida'
+scenarios:
+  global:
+    description-header: '&5%escenario%&7:'
+    description-prefix: '&7- '
+    inventory: '&6&lEscenarios &7(Click para ver la información)'
+    inventory-edit: '&6&lEscenarios &7(Editar)'
+    inventory-vote: '&6&lVotar &7(Alternar votos)'
+    item-edit: '&6Editar'
+    item-back: '&6Volver'
+    item-next: '&6Siguiente'
+    item-hotbar: '&6Has click derecho para ver los escenarios activos'
+    item-color: '&5'
+    item-info: '&7(Click derecho para ver la información)'
+    vote-max: '&cMáximo de votos alcanzado (%max%)'
+  cutclean:
+    name: CutClean
+    description:
+    - No furnaces required.
+    - Ores and animal drops are automatically smelted.
+    - Gravel always drops flint.
+    - No lapis is needed for enchanting.
+  fireless:
+    name: Fireless
+    description:
+    - You cannot take fire damage.
+  bowless:
+    name: Bowless
+    description:
+    - You are not able to craft bows.
+    error: '&4[Bowless] &cYou can''t craft bows!'
+  rodless:
+    name: Rodless
+    description:
+    - Fishing rods are not craftable.
+    error: '&4[Rodless] &cYou can''t craft fishing rods!'
+  shieldless:
+    name: Shieldless
+    description:
+    - Shields are not craftable.
+    error: '&4[Shieldless] &cYou can''t craft shields!'
+  blood_diamonds:
+    name: Blood Diamonds
+    description:
+    - When mining a diamond ore, the player will take half a heart of damage.
+  timber:
+    name: Timber
+    description:
+    - Breaking one log of a tree with an axe will cause the whole tree to fall down.
+  horseless:
+    name: Horseless
+    description:
+    - You are not able to tame horses/donkeys.
+    error: '&4[Horseless] &cYou can''t ride that horse!'
+  timebomb:
+    name: Timebomb
+    description:
+    - After killing a player, their loot will drop into a double chest.
+    - The chest will explode 30 seconds later.
+    chest: '&6&l%player%''s Timebomb'
+  no_fall:
+    name: No Fall
+    description:
+    - Fall damage is off.
+  best_pve:
+    name: Best PvE
+    description:
+    - Each player will be added to the "Best PvE List" at the start of the game.
+    - While being on the list , you will gain 1 extra heart every 10 minutes.
+    - Once a player takes damage, the player will be removed from the list.
+    - If you kill a player, you are added back to the list.
+    added: '&4[Best PvE] &aYou are added to the PvE list.'
+    removed: '&4[Best PvE] &cYou are now removed from the PvE list. Getting a kill
+      will add you back to the list.'
+    back: '&4[Best PvE] &aYou are added back to the PvE list.'
+  triple_ores:
+    name: Triple Ores
+    description:
+    - Ores drop in threes.
+  double_ores:
+    name: Double Ores
+    description:
+    - Ores drop in pairs.
+  team_inventory:
+    name: Team Inventory
+    description:
+    - Each team has an extra inventory that all members from the team can view by
+      using /teaminventory.
+    error: '&cYou may only open your team''s inventory while playing!'
+    disabled: '&cTeam Inventory is currently disabled!'
+    open: '&aOpening team inventory ...'
+    title: '&6Team Inventory'
+  no_clean:
+    name: No Clean
+    description:
+    - Gives you 30 seconds of invincibility after a kill.
+    - Attacking other players will remove this PvP Protection.
+    invulnerable: '&4[NoClean] &aYou are now invulnerable for 30 seconds!'
+    vulnerable: '&4[NoClean] &cYou can now take damage again!'
+    error: '&4[NoClean] &cYou can''t damage this player!'
+  hastey_boys:
+    name: Hastey Boys
+    description:
+    - Every tool you craft will have Efficiency 3 and Unbreaking 1
+    grindstone-error: '&4[Hastey Boys] &cYou may not disenchant "Hastey Boys" tools.'
+  lucky_leaves:
+    name: Lucky Leaves
+    description:
+    - Trees have a 0.5% chance of dropping a Golden Apple.
+  bleeding_sweets:
+    name: Bleeding Sweets
+    description:
+    - On death a player drops 1 diamond, 5 gold, 1 book, 2 string and 16 arrows
+  double_gold:
+    name: Double Gold
+    description:
+    - The original amount of gold will double when mined.
+  goldless:
+    name: Goldless
+    description:
+    - When gold is mined, it will disappear and is not obtainable.
+  flower_power:
+    name: Flower Power
+    description:
+    - Break flowers to receive items.
+  switcheroo:
+    name: Switcheroo
+    description:
+    - When you shoot someone, you trade places with them
+    switch: '&4[Switcheroo] &6You have switched positions with &3%player%'
+  vein_miner:
+    name: Vein Miner
+    description:
+    - Mining a block while crouched breaks blocks of the same type in a chain reaction
+    - Only works when using the correct tool for the block type
+  dragon_rush:
+    name: Dragon Rush
+    description:
+    - In dragon rush the goal is to kill the dragon.
+    - The first team to kill the dragon wins!
+    - There is a end portal at 0 0
+  love_at_first_sight:
+    name: Love At First Sight
+    description:
+    - In this scenario you are not able to choose your teammates through the team
+      selection inventory.
+    - Teams are created by clicking on someone in game.
+    join-error: '&cCan''t join teams, Love at first sight is enabled!'
+    join-broadcast: '&4[Love At First Sight] &a%player% has joined %leader%''s team'
+  fast_leaves_decay:
+    name: Fast Leaves Decay
+    description:
+    - In this scenario after breaking all logs of a tree the leaves will be gone within
+      seconds
+  sky_high:
+    name: Sky High
+    description:
+    - In this scenario after 30 minutes you will start taking damage every 30 seconds
+      while not above y=120
+    damage: '&4[Sky High] &cYou''re taking damage from being below y=120'
+  fast_smelting:
+    name: Fast Smelting
+    description:
+    - In this scenario item smelting is sped up 5 times.
+  superheroes:
+    name: Superheroes
+    description:
+    - Each player will gain a unique superpower.
+    - The superpower is Speed 1, Strength 1, Resistance 2, Invisibility, Jump Boost
+      4 or Health Boost 5.
+  anonymous:
+    name: Anonymous
+    description:
+    - All player names are distorted.
+  gone_fishing:
+    name: Gone Fishing
+    description:
+    - At the beginning of the game everyone gets a lure 3 luck of the sea 3 rod.
+  infinite_enchants:
+    name: Infinite Enchants
+    description:
+    - At the beginning of the game everyone gets 64 enchantment tables, anvils, lapis
+      blocks and a lot of XP.
+  children_left_unattended:
+    name: Children Left Unattended
+    description:
+    - When a teammate dies you receive a speed potion and a tamed wolf.
+  silent_night:
+    name: Silent Night
+    description:
+    - At night death messages, name tags, and chat are disabled.
+    error: '&4[Silent Night] &cSilent Night is enabled'
+  permakill:
+    name: PermaKill
+    description:
+    - When a player dies, it toggles perma day/night.
+  weakest_link:
+    name: Weakest Link
+    description:
+    - Every 10 minutes the person with the least health will perish.
+    - If everyone is at the same health no one will die.
+    kill: '&4[Weakest Link] &c%player% has been killed!'
+  eggs:
+    name: Eggs
+    description:
+    - When you throw an egg, a random mob will spawn where it lands.
+    - This includes enderdragons and withers.
+    - When you kill a chicken, there is a 5% chance of it dropping an egg.
+  no_going_back:
+    name: No Going Back
+    description:
+    - Once you go through a nether portal in the overworld, you can't go back to the
+      overworld.
+    error: '&4[No Going Back] &cYou are stuck in the nether!'
+  double_dates:
+    name: Double Dates
+    description:
+    - Players join with a chosen team and are combined randomly with another team.
+  fly_high:
+    name: Fly High
+    description:
+    - Players spawn with a elytra.
+  randomized_drops:
+    name: Randomized Drops
+    description:
+    - Every block broken will drop random items.
+  upside_down_crafting:
+    name: Upside Down Crafting
+    description:
+    - This scenario flips all crafts upside down.
+  randomized_crafts:
+    name: Randomized Crafts
+    description:
+    - This scenario randomizes the results of all crafts.
+  monsters_inc:
+    name: Monsters Inc.
+    description:
+    - In this scenario all doors are linked as portals.
+    error: '&4[Monsters Inc.] &cStop that!'
+  achievement_hunter:
+    name: Achievement Hunter
+    description:
+    - Players start with 5 hearts.
+    - For every achievement/advancement, players get a half heart of health.
+  nine_slots:
+    name: Nine Slots
+    description:
+    - You can only use your hotbar to hold items.
+  nether_start:
+    name: Nether Start
+    description:
+    - You start the game in the nether.
